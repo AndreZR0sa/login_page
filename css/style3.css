@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #242731;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  gap: 16px;
+}
+
+header .company {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header .oculto {
+  display: none;
+}
+
+header button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== MAIN ===== */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 24px;
+}
+
+.text-div {
+  text-align: center;
+  max-width: 420px;
+}
+
+.progress {
+  margin: 20px auto;
+  max-width: 60%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.regis {
+  color: #575F6E;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* ===== PHONE BOX ===== */
+.phone-box {
+  max-width: 420px;
+  width: 100%;
+  border: 1px solid #BBBFC1;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: #fff;
+}
+
+.confirmed {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.confirmed i {
+  color: #3B82F6;
+  margin-right: 6px;
+}
+
+.subtext {
+  color: #575F6E;
+  font-size: 13px;
+}
+
+/* ===== LOGIN BOX ===== */
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 420px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #BBBFC1;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.login-box label {
+  font-size: 14px;
+  color: #242731;
+  font-weight: 500;
+}
+
+.login-box input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BBBFC1;
+  font-size: 15px;
+  padding: 8px 0;
+  outline: none;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper i {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+.good-password {
+  color: #10B981;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.good-password i {
+  color: #10B981;
+  margin-right: 4px;
+}
+
+/* ===== BUTTON ===== */
+.register-btn {
+  background: #2563EB;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+  max-width: 420px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background: #1E40AF;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 768px) {
+  header .oculto {
+    display: inline;
+  }
+
+  .container {
+    padding-top: 60px;
+  }
+
+  .progress {
+    display: none;
+  }
+}

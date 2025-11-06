@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="company">
+      <img src="image/logo.png" alt="logo">
+      <h1>COMPANY NAME</h1>
+    </div>
+    <img src="image/Progress bar3.png" alt="progress" class="oculto">
+    <button id="closeBtn" class="btnClose">
+      <img src="image/Icon.png" alt="close icon">
+    </button>
+  </header>
+
+  <main class="container">
+    <div class="text-div">
+      <img src="image/Progress bar3.png" alt="progress" class="progress">
+      <h2>Registration</h2>
+      <p class="regis">
+        Fill in the registration data. It will take a couple of minutes.<br>
+        All you need is a phone number and e-mail.
+      </p>
+    </div>
+
+    <!-- PHONE BOX -->
+    <div class="phone-box">
+      <p class="confirmed"><i class="fa-solid fa-check"></i> +1 555 555-1234</p>
+      <span class="subtext">Number confirmed</span>
+    </div>
+
+    <!-- LOGIN BOX -->
+    <div class="login-box">
+      <label for="email">Enter your email</label>
+      <input type="email" id="email" placeholder="alex_manager@gmail.com">
+
+      <label for="password">Set a password</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="********">
+        <i class="fa-solid fa-eye" id="togglePassword"></i>
+      </div>
+      <p class="good-password"><i class="fa-solid fa-check"></i> Good password</p>
+    </div>
+
+    <!-- REGISTER BUTTON -->
+    <button id="registerBtn" class="register-btn">Register Now</button>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

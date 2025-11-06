@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="company">
+            <img src="image/logo.png" alt="logo">
+            <h1>COMPANY NAME</h1>
+        </div>
+        <img src="image/Progress bar.png" alt="" class="oculto">
+        <button id="closeBtn" class="btnClose">
+            <img src="image/Icon.png" alt="close icon">
+        </button>
+    </header>
+
+    <main class="container">
+        <div class="text-div">
+            <img src="image/Progress bar.png" alt="progress" class="progress">
+            <h2>Registration</h2>
+            <p class="regis">
+                Fill in the registration data. It will take a couple of minutes.<br>
+                All you need is a phone number and e-mail.
+            </p>
+
+            <div class="text-content">
+                <i class="fa-solid fa-lock"></i>
+                <p>We take privacy issues seriously. You can be sure that your personal data is securely protected.</p>
+                <button class="close-info"><img src="image/second_close.png" alt="close info"></button>
+            </div>
+        </div>
+
+        <div class="phone">
+            <p class="info-phone">Enter your phone number</p>
+            <div class="enohp">
+                <select name="country-code" id="ddd">
+                    <option value="+1">+1</option>
+                    <option value="+55">+55</option>
+                    <option value="+49">+49</option>
+                    <option value="+377">+377</option>
+                    <option value="+41">+41</option>
+                </select>
+                <input type="tel" id="pNumber" placeholder="555 555-1234">
+            </div>
+            <button id="send">Send Code</button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

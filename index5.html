@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Info</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style5.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="company">
+      <img src="image/logo.png" alt="logo">
+      <h1>COMPANY NAME</h1>
+    </div>
+    <img src="image/Progress bar2.png" alt="Progress bar step 2" class="oculto">
+    <button id="closeBtn" class="btnClose">
+      <img src="image/Icon.png" alt="close icon">
+    </button>
+  </header>
+
+  <main class="container">
+    <div class="text-div">
+      <img src="image/Progress bar2.png" alt="Progress bar step 2" class="progress">
+      <h2>Profile info</h2>
+      <p class="regis">
+        Fill in the data for profile. It will take a couple of minutes.<br>
+        You only need a passport.
+      </p>
+    </div>
+
+    <div class="profile-form-box">
+      <div class="form-header">
+        <h3>Contacts</h3>
+        <p class="sub-label">These contacts are used to inform about orders</p>
+      </div>
+
+      <div class="form-content">
+        <div class="contact-list">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>alex_manager@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 555 555-1234</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="social-section">
+          <div class="social-header">
+            <h4>Social network</h4>
+            <p class="sub-label">Indicate the desired communication method</p>
+          </div>
+
+          <div class="social-inputs">
+            <div class="social-input-row">
+              <div class="social-dropdown">
+                <i class="fa-brands fa-skype"></i>
+                <span>Skype</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <input type="text" value="@alex_92">
+            </div>
+
+            <div class="social-input-row">
+              <div class="social-dropdown">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <input type="text" value="@profile">
+            </div>
+          </div>
+
+          <a href="#" class="add-more">
+            <i class="fa-solid fa-plus"></i>
+            Add More
+          </a>
+        </div>
+      </div>
+    </div>
+    <button id="nextBtns" class="next-btn">
+      Go Next
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
